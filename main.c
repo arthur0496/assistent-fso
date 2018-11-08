@@ -3,8 +3,9 @@
 
 int main (){
   srand(time(NULL));  
-  num_students = random_number(3,5);
-  
+  //num_students = random_number(3,40);
+  num_students = 3;
+
   int num = num_students;
 
   printf("%d\n",num);
